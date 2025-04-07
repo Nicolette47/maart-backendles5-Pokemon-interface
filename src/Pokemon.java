@@ -43,4 +43,9 @@ public abstract class Pokemon {
         this.hp = hp;
     }
 
+    public void feed (){
+        int hpboost = 10;
+        this.hp += hpboost;
+        System.out.println(this.name + "is nu aan het smikkelen van " + this.food + " en je krijgt een HP boost van 10 hp." );
+    }
 }
